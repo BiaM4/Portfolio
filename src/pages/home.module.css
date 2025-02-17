@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius:wght@400;700&display=swap');
+
+.geral{
+    justify-content: space-between;
+}
+
+.background{
+    background-image: url('../assets/back.svg');
+    background-size:cover;                
+    background-position:center;  
+    width: 100vw;         
+    height:100vh;                 
+    overflow: scroll;
+        
+}
+
+.imgContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  height: 100vh; 
+}
+
+.imgName{
+  max-width: 95%; 
+  height: auto;
+}
+
+.imgSeta{ 
+  max-width: 90%;
+  height: auto;
+}
+
+.aboutGeral{
+  display: flex;
+  justify-content: center;
+  padding: 25px 5%;
+  height: 80vh; 
+}
+
+.profilePictur{
+    
+  max-width: 300px 80%; 
+  height: auto;
+}
+
+.about{
+  padding: 25px 5%;
+}
+
+.text{
+  font-family: "Delius", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  text-align: justify;
+  max-width: 90%;
+  line-height: 1.6;
+}
+
+.titleContainer{
+  display: flex;          
+  padding: 25px 5%;
+  flex-direction: column;
+  height: 80vh; 
+}
+
+.imgTitle{
+  max-width: 20%; 
+  height: auto;
+}
+
+.imgContact{
+  max-width: 40%; 
+  height: auto;
+}
+
+.atentionContainer{
+  display: flex;            
+  justify-content: center;      
+  align-items: center; 
+  margin-top: auto;
+  margin-bottom: auto
+}
+
+.imgAtention{
+  max-width: 40%; 
+  height: auto;
+}
+
+.id{
+  color:transparent;
+  margin-top: 10%;
+}
+
+.imgCardContact{
+  display: flex;            
+  justify-content: center;      
+  align-items: center; 
+  gap: 94px; 
+  padding: 25px 5%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media screen and (max-width: 900px){
+  .aboutGeral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-top: 15%;
+    align-items: center;
+    height: 142vh; 
+  }
+
+  .imgSeta{ 
+    max-width: 85%;
+    height: auto;
+  }
+
+  .profilePictur{
+    
+    max-width: 70%; 
+    height: auto;
+  }
+
+  .titleContainer{
+    display: flex;          
+    padding: 25px 5%;
+    flex-direction: column;
+    
+  }
+
+  .imgTitle{
+    max-width: 40%; 
+    height: auto;
+  }
+
+  .imgContact{
+    max-width: 70%; 
+    height: auto;
+  }
+  
+  .atentionContainer{
+    display: flex;            
+    justify-content: center;      
+    align-items: center; 
+  }
+  
+  .imgAtention{
+    max-width: 40%; 
+    height: auto;
+  }
+
+  .imgCardContact{
+    display: flex;            
+    justify-content: center;      
+    align-items: center; 
+    padding: 25px 5%;
+    gap: 25px; 
+  }
+
+  .text{
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    text-align: justify;
+  }
+}
+
+@media screen and (max-width: 730px){
+  .aboutGeral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15%;
+    align-items: center;
+    height: 142vh; 
+  }
+
+  .imgSeta{ 
+    max-width: 75%;
+    height: auto;
+  }
+
+  .profilePictur{
+    max-width: 70%; 
+    height: auto;
+  }
+
+  .titleContainer{
+    display: flex;          
+    padding: 25px 5%;
+
+    
+  }
+  .imgTitle{
+    max-width: 40%; 
+    height: auto;
+  }
+
+  .imgContact{
+    max-width: 70%; 
+    height: auto;
+  }
+  
+  
+  .atentionContainer{
+    display: flex;            
+    justify-content: center;      
+    align-items: center; 
+  }
+  
+  .imgAtention{
+    max-width: 40%; 
+    height: auto;
+  }
+
+  .imgCardContact{
+    display: flex;            
+    justify-content: center;      
+    align-items: center; 
+    padding: 20px 4%;
+    gap: 25px; 
+    flex-wrap: wrap;
+  }
+
+  .text{
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    max-width: 95%;
+  }
+  
+  .about{
+    padding: 25px 5%;
+  }
+
+}
+
+@media screen and (max-width: 480px){
+  .imgSeta{ 
+    max-width: 65%;
+    height: auto;
+  }
+
+  .imgTitle{
+    max-width: 35%; 
+    height: auto;
+  }
+
+  .imgContact{
+    max-width: 65%; 
+    height: auto;
+  }
+
+  .imgAtention{
+    max-width: 30%; 
+    height: auto;
+  }
+
+  .text{
+    font-family: "Delius", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    max-width: 100%; 
+  }
+  
+  .imgAbout{
+    max-width: 95%;
+    height: auto;
+  }
+
+  .imgSkills{
+    max-width: 65%;
+    height: auto;
+  }
+
+}

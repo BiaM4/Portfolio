@@ -1,0 +1,63 @@
+.geral{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 5%;
+    box-sizing: border-box;
+}
+
+.geralButton{
+    display: flex;
+    gap: 15px
+}
+
+.mobileButton{
+    display:none
+
+}
+.mobileGerButton {
+    display:none
+}
+
+.navbar {
+   position: fixed;
+   background-color: transparent;
+   width: 100%;
+   
+  }
+
+  @media screen and (max-width: 730px){
+    .geral{
+        padding-bottom: 0;
+    }
+
+     .isOpen.navbar{
+        position: fixed;
+        background-color: white;
+        height: auto;
+        width: 100%;
+     }
+     .isOpen.imgMobileButton{
+        display: none;
+     }
+    .mobileButton{
+        display:block;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .mobileGerButton {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+       
+    }
+    .geralButton{
+        display: none;
+    }
+   
+  }
+ 
+    
+ 

@@ -1,0 +1,18 @@
+.geral{
+    justify-content: space-between;
+}
+
+.background{
+    background-image: url('../assets/fundo.svg');
+    background-size:cover;  
+    background-position:center;  
+    width: 100vw;         
+    height:100vh;               overflow:hidden;             position: relative; 
+        
+}
+
+.imgName{
+  display: flex;            
+  justify-content: center;      
+  align-items: center;  
+}

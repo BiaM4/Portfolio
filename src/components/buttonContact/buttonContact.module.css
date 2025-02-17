@@ -1,0 +1,53 @@
+.button {
+    background-color:white;
+    border:none; 
+    width: 100%; /* Garante que ele se ajuste ao contêiner */
+    max-width: 134px; /* Define um limite máximo */
+    min-width: 80px; /* Impede que fique muito pequeno */
+    height: auto; /* Mantém a proporção */
+    aspect-ratio: 134 / 173;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.button:hover {
+    transform: scale(1.1); /* Aumenta 10% do tamanho original */
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4); /* Deixa a sombra maior */
+}
+
+.title{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 730px){
+    .button {
+        background-color:white;
+        border:none; 
+        max-width: 100px; 
+        aspect-ratio: 1 / 1.3;
+        border-radius: 10px;
+        box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.3); 
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    }
+    .button:hover {
+        transform: scale(1.1); /* Aumenta 10% do tamanho original */
+        box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.4); /* Deixa a sombra maior */
+    }
+    
+    .title{
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+}

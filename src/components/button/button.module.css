@@ -1,0 +1,64 @@
+.button {
+    background-color: black;
+    border:none;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .button:hover{
+        background-color:#790AA5
+    }
+
+    .button.active {
+        background-color: #790AA5;
+        color: white;
+    }
+
+.title{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width: 730px){
+    .button {
+        background-color: transparent;
+        border:none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .button:hover{
+            background-color:transparent
+        }
+
+        .button.active {
+            background-color: transparent;
+            color: transparent;
+        }
+
+     .title{
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        transition: color 0.3s ease;
+    }
+    
+        .title:hover{
+            color:#790AA5
+        }
+    
+        .title.active {
+            color: #790AA5;
+        }
+  }

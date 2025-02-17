@@ -1,0 +1,25 @@
+
+.background{
+    background-image: url('../assets/fundo.svg');
+    background-size:cover;  
+    background-position:center;  
+    width: 100vw;         
+    height:100vh;               
+    overflow:hidden;             
+    position: relative; 
+        
+}
+
+.imgTitle{
+  display: flex;
+  padding: 25px 5%;
+
+}
+
+.imgAtention{
+  display: flex;            
+  justify-content: center;      
+  align-items: center;  
+}
+
+
