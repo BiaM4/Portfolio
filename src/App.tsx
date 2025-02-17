@@ -4,7 +4,7 @@ import { RoutesAPP } from './routes'
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
      <RoutesAPP/>
     </BrowserRouter>
   )
